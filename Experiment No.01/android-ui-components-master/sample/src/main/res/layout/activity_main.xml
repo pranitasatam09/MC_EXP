@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Select component"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_rating_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Rating Bar" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_dialogs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Dialogs" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_imageslider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Image Slider" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Phone Number" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Toolbar" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_suggestion_input_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Suggestion Input View" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_card_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Card Input View"/>
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_quantity_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Quantity Picker View" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_timeline_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Timeline View" />
+
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Sample.ButtonStyle"
+                android:id="@+id/button_fit_option_message_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Fit Option Message View" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

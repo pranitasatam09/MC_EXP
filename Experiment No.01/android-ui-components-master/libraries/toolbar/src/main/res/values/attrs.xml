@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Toolbar">
+        <attr name="leftImageDrawable" format="reference" />
+        <attr name="middleImageDrawable" format="reference" />
+        <attr name="rightImageDrawable" format="reference" />
+        <attr name="upperLeftText" format="string" />
+        <attr name="lowerLeftText" format="string" />
+        <attr name="middleText" format="string" />
+        <attr name="upperRightText" format="string" />
+        <attr name="lowerRightText" format="string" />
+        <attr name="toolbarBackground" format="reference" />
+        <attr name="upperLeftTextMarginStart" format="dimension" />
+        <attr name="lowerLeftTextMarginStart" format="dimension" />
+        <attr name="upperRightTextMarginEnd" format="dimension" />
+        <attr name="lowerRightTextMarginEnd" format="dimension" />
+        <attr name="rightImageDrawableMarginEnd" format="dimension" />
+        <attr name="leftImageDrawableMarginStart" format="dimension" />
+        <attr name="hideLeftImage" format="boolean" />
+    </declare-styleable>
+</resources>
